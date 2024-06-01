@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do list</title>
+    <script defer src="script.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div class="main_container">
+        <h1>Tasks</h1>
+        <form id="new-task" class="form-container">
+            <div id="task-container-input">
+                <input id="task" autocomplete="off" placeholder="New Task" type="text">
+                <a href="#" class="add_button" id="add_button">+</a>
+            </div>
+        </form>                
+        <ul id="tasks-to-do">
+        </ul>
+        <div id="container_complete">
+            <a href="#" class="complete_button" id="completar">Complete All</a>
+        </div>
+    </div>
+</body>
+</html>
